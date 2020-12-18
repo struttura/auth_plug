@@ -1,0 +1,10 @@
+%{
+  "mime": {:hex, :mime, "1.5.0", "203ef35ef3389aae6d361918bf3f952fa17a09e8e43b5aa592b93eba05d0fb8d", [:mix], [], "hexpm", "55a94c0f552249fc1a3dd9cd2d3ab9de9d3c89b559c2bd01121f824834f24746"},
+  "msgpax": {:hex, :msgpax, "0.8.2", "0e83d86e7cbf1bdcf7b870c25951df042ec19f9804a1a9c2fa59091a43ee2886", [:mix], [], "hexpm", "aa0baa382383160d90275a1b5d8f72c457a2feed89cbb1bd080a5c3821389507"},
+  "pkcs7": {:hex, :pkcs7, "1.0.2", "cd9d50177bfbd3fd80e8bc79d2941d3b2968b64bd1151ef3e54d8c4b2605ed7e", [:mix], [], "hexpm", "0e4faa65411e204b7952712d58f657335109ecbb24cf79163dc96458ba8d6518"},
+  "plug": {:hex, :plug, "1.11.0", "f17217525597628298998bc3baed9f8ea1fa3f1160aa9871aee6df47a6e4d38e", [:mix], [{:mime, "~> 1.0", [hex: :mime, repo: "hexpm", optional: false]}, {:plug_crypto, "~> 1.1.1 or ~> 1.2", [hex: :plug_crypto, repo: "hexpm", optional: false]}, {:telemetry, "~> 0.4", [hex: :telemetry, repo: "hexpm", optional: false]}], "hexpm", "2d9c633f0499f9dc5c2fd069161af4e2e7756890b81adcbb2ceaa074e8308876"},
+  "plug_crypto": {:hex, :plug_crypto, "1.2.0", "1cb20793aa63a6c619dd18bb33d7a3aa94818e5fd39ad357051a67f26dfa2df6", [:mix], [], "hexpm", "a48b538ae8bf381ffac344520755f3007cc10bd8e90b240af98ea29b69683fc2"},
+  "secret": {:hex, :secret, "0.1.0", "cd9bd65daac64ab7b2966e2c8637b540bfb80a4f8384d84c0c011f966fb2dab2", [:mix], [{:simple_secrets, "~> 1.0", [hex: :simple_secrets, repo: "hexpm", optional: false]}], "hexpm", "4cd0a4bc5832ea6ba2170a6623006b52ca98d93297aac691e810a52f74cf2404"},
+  "simple_secrets": {:hex, :simple_secrets, "1.0.0", "8d3896056171b66c0b87b09240ad650af30ff4d5ef830df74130df1da45e26c8", [:mix], [{:msgpax, "~> 0.8", [hex: :msgpax, repo: "hexpm", optional: false]}, {:pkcs7, "~> 1.0.2", [hex: :pkcs7, repo: "hexpm", optional: false]}], "hexpm", "797c98d49250fb343ed9a98411db641a3e5ae3344433f0a46d22dfec98bce11f"},
+  "telemetry": {:hex, :telemetry, "0.4.2", "2808c992455e08d6177322f14d3bdb6b625fbcfd233a73505870d8738a2f4599", [:rebar3], [], "hexpm", "2d1419bd9dda6a206d7b5852179511722e2b18812310d304620c7bd92a13fcef"},
+}
