@@ -3,7 +3,7 @@ defmodule AuthPlug.Mixfile do
 
   def project do
     [
-      app: :auth_plug,
+      app: :struttura_auth_plug,
       version: "0.1.0",
       elixir: "~> 1.10",
       deps: deps(),
@@ -24,7 +24,8 @@ defmodule AuthPlug.Mixfile do
   defp deps do
     [
       {:plug, "~> 1.11"},
-      {:secret, "~> 0.2.0"}
+      {:secret, "~> 0.2.0"},
+      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
   end
 
